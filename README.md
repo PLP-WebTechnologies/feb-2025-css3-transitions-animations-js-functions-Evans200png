@@ -21,3 +21,6 @@ Store data in localStorage.
 Apply JavaScript to trigger animations.
 
 Happy Coding! 💻✨
+
+#### Deployment Link
+link: https://plp-webtechnologies.github.io/feb-2025-css3-transitions-animations-js-functions-Evans200png/
