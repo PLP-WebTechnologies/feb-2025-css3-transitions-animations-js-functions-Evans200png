@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Profile Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>LIFE ORGANIZER 🎉</h1>
+    <button id="themeToggle">Change Theme</button>
+  </header>
+
+  <section class="clock">
+    <h2>Current Time</h2>
+    <div id="liveClock">--:--:--</div>
+  </section>
+
+  <section class="profile">
+    <h2>Your Profile</h2>
+    <form id="profileForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <button type="submit">Save Profile</button>
+    </form>
+    <div id="profileDisplay"></div>
+  </section>
+
+  <section class="todo">
+    <h2>To-Do List</h2>
+    <form id="todoForm">
+      <input type="text" id="todoInput" placeholder="New task..." required />
+      <button type="submit">Add</button>
+    </form>
+    <ul id="todoList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
